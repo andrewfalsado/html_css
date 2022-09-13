@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid blue;
+        }
+     
+
+    </style>
+
+</head>
+<body>
+    <div id="main" class="page-wrapper">
+        
+        <iframe src="invoice_table.html" width="600" height="250"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9IfMfrxQxDY" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        
+
+        <h1>Hello World!!</h1>
+        <h2>Hello World!!</h2>
+        <h3>Hello World!!</h3>
+        <h4>Hello World!!</h4>
+        <h5>Hello World!!</h5>
+        <h6>Hello World!!</h6>
+
+        <p title="Sample Text">This is an example of a webpage.</p>
+        
+        <!-- this is a comment -->
+        <img src="images/additionals/DSC_0391.JPG" height="auto" width="500" alt="This is a sample image" title="Sunset Photo">
+        
+        <img src="images/additionals/DSC_03911.JPG" height="auto" width="500" alt="This is a sample image" title="Sunset Photo">
+
+        <div>
+        <a href="https://www.google.com" target="_blank" title="Go to Google">Google</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        </div>
+       
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2
+                <ol>
+                    <li>List item 2.1</li>
+                    <li>List item 2.2</li>
+                    <li>List item 2.3</li>
+                </ol>
+            </li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>    
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+
+        <table style="width:100%;border:none;">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align: left;color:blue;">Fruits</th>
+                    <th colspan="2">Vegetables</th>
+                </tr>
+                <tr style="background-color: #ccc;">
+                    <th style="width:20%;height:50px;background-color: burlywood;">Name</th>
+                    <th style="width:30%;">Qty</th>
+                    <th style="width:30%;">Name</th>
+                    <th style="width:20%;">Qty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" colspan="2">Cell 1</td>
+                    <td>Cell 3</td>
+                    <td>Cell 4</td>
+                </tr>
+                <tr>
+                    <td>Cell 3</td>
+                    <td>Cell 4</td>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                    <td>Cell 4</td>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                    <td>Cell 4</td>
+                </tr>
+            </tbody>
+        </table>    
+
+        <p><span>CSS</span> is the language we use to style an HTML document.
+            <span>CSS</span> describes how HTML elements should be displayed.</p>
+
+        <div>
+        <header></header>
+
+        <nav></nav>
+        </div>
+
+        <div>
+            <aside></aside>
+            <!-- Banner -->
+            <section>
+
+            </section>
+
+            <!-- main content -->
+
+            https://www.google.com/?first_name=&last_name=&middle_initial=&email=&password=&password_confirm=&age=&birthdate=
+            https://www.google.com/?first_name=Andrew&last_name=Falsado&middle_initial=S&email=andrew%40kodego.ph&password=23&password_confirm=23&age=23&birthdate=2022-09-13
+
+            <section>
+                <form action="https://google.com" target="_blank" method="GET">
+                    
+                    <div>
+                        <fieldset>
+                        <legend>Student Name</legend>
+                        <label>First Name:</label>
+                        <input type="text" name="first_name" maxlength="30" required placeholder="First Name"/>
+                        <label>Last Name:</label>
+                        <input type="text" name="last_name" maxlength="30" required placeholder="Last Name"/>
+                        <label>MI:</label>
+                        <input type="text" name="middle_initial" maxlength="1" placeholder="MI"/>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Login Details</legend>
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="Email"/>
+                        <input type="password" name="password"/>
+                        <input type="password" name="password_confirm"/>
+                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                    <div>
+                        <input type="number" name="age" placeholder="Age"/>
+                        <input type="date" name="birthdate"/>
+                        
+                        <input id="agreement" type="checkbox" name="agree"/>
+                        <label for="agreement">I have read and understand the policy</label>
+                    </div>
+                    <div>
+                        <input id="chk_1" type="checkbox" name="ckeck_option" value="1" checked/>
+                        <label for="chk_1">Check 1</label>
+                        <input id="chk_2" type="checkbox" name="ckeck_option" value="2"/>
+                        <label for="chk_2">Check 2</label>
+                        <input id="chk_3" type="checkbox" name="ckeck_option" value="3"/>
+                        <label for="chk_3">Check 3</label>
+
+                    </div>
+                    <div>
+                        <input id="radio_1" type="radio" name="radio_option" value="1"/>
+                        <label for="radio_1">Radio 1</label>
+                        <input id="radio_2" type="radio" name="radio_option" value="2"/>
+                        <label for="radio_2">Radio 2</label>
+                        <input id="radio_3" type="radio" name="radio_option" value="3" checked/>
+                        <label for="radio_3">Radio 3</label>
+                    </div>
+
+                    <div>
+                        <select name="status" style="width: 150px;" required>
+                            <option value="">-- Select Status --</option>
+                            <option value="S" selected>Single</option>
+                            <option value="M">Married</option>
+                            <option value="W">Widow</option>
+                            <option value="D">Divorced</option>
+                        </select>
+                    </div>
+                   
+                    <div>
+                        <textarea name="remarks" placeholder="Please type any remarks" rows="10" cols="50" maxlength="300">Default remarks</textarea>
+                    </div>
+                </fieldset>
+                    
+                    <fieldset>
+                        <legend>Attachment 1</legend>
+                        <input type="file" name="att_1" accept=".pdf"/>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Attachment 2</legend>
+                        <input type="file" name="att_2"/>
+                    </fieldset>
+                    <div>
+                        <input type="button" value="Submit"/>
+
+                        <input type="submit" value="Submit This"/>
+
+                        <input type="hidden" name="id" value="1"/>
+                    </div>
+                </form>
+
+            </section>
+
+            <article></article>
+        </div>
+
+        <!-- footer -->
+        <section>
+
+        </section>
+
+
+        <div style="margin-bottom:50px;"></div>
+
+
+        
+    </div>
+</body>
+</html>
